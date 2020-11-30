@@ -28,7 +28,7 @@ const cd_end_bytes = new Buffer([27, 33, 0, 28, 33, 0]);
 const d_start_bytes = new Buffer([27, 33, 32, 28, 33, 4]);
 const d_end_bytes = new Buffer([27, 33, 0, 28, 33, 0]);
 
-const cut_bytes = new Buffer([27, 105]);
+const cut_bytes = new Buffer([27, 100]);
 const beep_bytes = new Buffer([27, 66, 3, 2]);
 const line_bytes = new Buffer([10, 10, 10, 10, 10]);
 
